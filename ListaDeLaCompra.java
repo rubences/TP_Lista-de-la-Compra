@@ -1,3 +1,4 @@
+package listadelacompra;
 import java.util.Scanner;  
   
 public class ListaDeLaCompra{  
@@ -11,7 +12,7 @@ public class ListaDeLaCompra{
   // Métodos
 public void listacompra(Scanner console){
          do {  
-            System.out.println("Indique el artículo para añadir "+"a la lista de la compra o escriba " + SALIR + "                                   para terminar ");  
+            System.out.println("Indique el artículo para añadir "+"a la lista de la compra o escriba " + SALIR + "para terminar ");  
             valorIntroducido = console.nextLine();  
                  if (!valorIntroducido.equals(SALIR)) {  
                        aComprar[numArticulos] = valorIntroducido;  
